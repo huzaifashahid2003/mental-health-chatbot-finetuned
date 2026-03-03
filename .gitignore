@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Trained models & embeddings (large binary files — regenerate with train.py)
+models/*.pkl
+models/*.pt
+models/*.bin
+models/sentence_model/
+final_model/
+model_output/
+
+# Environment secrets
+.env
+
+# OS artefacts
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Bootstrap helper (used only during setup)
+_write_files.py
